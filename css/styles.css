@@ -431,6 +431,13 @@ address {
     color: rgba(255, 255, 255, 0.6);
 }
 
+
+/* for footer link */
+
+.color-white {
+    color: var(--white-color);
+}
+
 .footer-link:hover,
 .footer-link:focus,
 .footer-list-item>a:hover,
@@ -479,13 +486,6 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-
-/* for footer link */
-
-.color-white {
-    color: var(--white-color);
 }
 
 
@@ -548,6 +548,11 @@ address {
     margin-top: 30px;
     margin-left: 30px;
     display: block;
+}
+
+.store-item:hover,
+.store-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .store-wrap {
